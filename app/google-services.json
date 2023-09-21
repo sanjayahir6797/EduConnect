@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "953589724720",
+    "firebase_url": "https://educonnect-31ad5-default-rtdb.firebaseio.com",
+    "project_id": "educonnect-31ad5",
+    "storage_bucket": "educonnect-31ad5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:953589724720:android:32155d197878f93b291ff5",
+        "android_client_info": {
+          "package_name": "com.app.educonnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "953589724720-v9ea59gv5m5tnfoph4fe7sqh0l4rl0gi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.educonnect",
+            "certificate_hash": "1569ab7fff62c5572f0486a2d9cdb9dfc32f06cb"
+          }
+        },
+        {
+          "client_id": "953589724720-o8vpo65btv777buu60vhsbk1regivl8j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFpXnXxYtPJeG7UKlERmqU0A_KG97gDoQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "953589724720-o8vpo65btv777buu60vhsbk1regivl8j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:953589724720:android:f2a33d0cb8ab4e24291ff5",
+        "android_client_info": {
+          "package_name": "com.app.educonnect_educationalapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "953589724720-o8vpo65btv777buu60vhsbk1regivl8j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFpXnXxYtPJeG7UKlERmqU0A_KG97gDoQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "953589724720-o8vpo65btv777buu60vhsbk1regivl8j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
