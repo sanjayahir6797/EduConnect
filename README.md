@@ -4,10 +4,10 @@
 It is an open-source app with real-time messaging using Firebase, Firestore data, and Firebase Authentication with email, google, and OTP.
 
 ## Features:
-Setup Authentication and use the Sign-in method 'Email/Password', Phone Number, and Gmail
-Setup real-time Database-Private messaging (one-to-one)
-Setup Storage
-Set up Firestore to save text, and images and show them in the recycler view list
+ “*” Setup Authentication and use the Sign-in method 'Email/Password', Phone Number, and Gmail
+ “*” Setup real-time Database-Private messaging (one-to-one)
+ “*” Setup Storage
+ “*” Set up Firestore to save text, and images and show them in the recycler view list
 
 ## Setting up
 In order for this app to work, you will need to create a Firebase project:
