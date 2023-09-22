@@ -13,6 +13,7 @@ import com.app.educonnect.R
 import com.app.educonnect.databinding.ActivityHomeBinding
 import com.app.educonnect.databinding.NavHeaderBinding
 import com.app.educonnect.utils.Extensions
+import com.app.educonnect.utils.Extensions.getUserName
 import com.app.educonnect.utils.FirebaseUtils.firebaseAuth
 import com.google.android.material.navigation.NavigationView
 
@@ -32,8 +33,8 @@ class HomeActivity : AppCompatActivity() {
 
         val viewHeader = binding.navView.getHeaderView(0)
         val navViewHeaderBinding: NavHeaderBinding = NavHeaderBinding.bind(viewHeader)
-        val userMail = Extensions.getSharedPreferenceUser(this)
-        navViewHeaderBinding.txtUser.text = userMail
+      //  val userMail = Extensions.getSharedPreferenceUser(this)
+        navViewHeaderBinding.txtUser.text = getUserName()
 
 
         // Show and Manage the Drawer and Back Icon

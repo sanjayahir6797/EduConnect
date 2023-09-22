@@ -5,6 +5,8 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.app.educonnect.databinding.ActivityMainBinding
 import com.app.educonnect.utils.Extensions
+import com.google.firebase.auth.ktx.auth
+import com.google.firebase.ktx.Firebase
 
 
 class MainActivity : AppCompatActivity() {
@@ -13,12 +15,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         val view = binding.root
-        setContentView(view)
-        val isLogin = Extensions.isLogin(this)
-        if (isLogin) {
+        if (Firebase.auth.currentUser != null) {
             val intent = Intent(this@MainActivity, HomeActivity::class.java)
             startActivity(intent)
         }
+        setContentView(view)
+       // val isLogin = Extensions.isLogin(this)
+
 
         binding.btnSignInEmailPassword.setOnClickListener {
             startActivity(Intent(this, EmailAuthActivity::class.java))

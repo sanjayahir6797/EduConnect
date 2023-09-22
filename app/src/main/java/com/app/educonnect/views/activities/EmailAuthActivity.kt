@@ -57,8 +57,8 @@ class EmailAuthActivity : AppCompatActivity() {
                             val photoUrl = user.photoUrl
                             val emailVerified = user.isEmailVerified
                             val uid = user.uid
-                            addUserToDatabase(name?:"",email?:"",uid)
-                            sharedPreference(this, name.toString())
+                            addUserToDatabase(signInEmail?:"",email?:"",uid)
+                            sharedPreference(this, signInEmail.toString())
                         }
 
                         toast(getString(R.string.msg_success_login))

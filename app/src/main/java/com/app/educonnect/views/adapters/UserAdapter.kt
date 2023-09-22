@@ -9,6 +9,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.app.educonnect.R
 import com.app.educonnect.models.User
+import com.app.educonnect.utils.Extensions.decodeString
 import com.app.educonnect.views.activities.ChatActivity
 
 
@@ -23,11 +24,11 @@ class UserAdapter(val context: Context, private val userList: ArrayList<User>) :
     override fun onBindViewHolder(holder: UserViewHolder, position: Int) {
         // bind with text
         val currentUser = userList[position]
-        holder.textName.text = currentUser.name
+        holder.textName.text = decodeString(currentUser.name)
 
         holder.itemView.setOnClickListener {
             val intent = Intent(context, ChatActivity::class.java)
-            intent.putExtra("name", currentUser.name ?: "Chat")
+            intent.putExtra("name", decodeString(currentUser.name) ?: "Chat")
             intent.putExtra("uid", currentUser.uid)
             context.startActivity(intent)
         }

@@ -5,9 +5,12 @@
 
     <RelativeLayout
         android:layout_width="wrap_content"
-        android:background="@drawable/edt_background"
-        android:layout_marginLeft="5dp"
-        android:layout_marginTop="5dp"
+        android:background="@drawable/receive_chat_msg"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginTop="10dp"
+        android:paddingStart="18dp"
+        android:paddingEnd="10dp"
         android:layout_height="wrap_content">
 
         <TextView

@@ -5,10 +5,13 @@
 
     <RelativeLayout
         android:layout_width="wrap_content"
-        android:background="@drawable/btn_background"
-        android:layout_alignParentRight="true"
-        android:layout_marginRight="5dp"
-        android:layout_marginTop="5dp"
+        android:background="@drawable/sent_chat_msg"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="18dp"
         android:layout_height="wrap_content">
 
         <TextView
@@ -16,7 +19,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="This is sent message"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:padding="10dp"
             android:textSize="18sp"/>
     </RelativeLayout>
